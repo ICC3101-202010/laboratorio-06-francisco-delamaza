@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace Laboratorio_06
 {
-    [Serializable]
-    class Empresa
+    class Persona
     {
         public string nombre;
+        public string apellido;
         public string rut;
-        List<Division> divisions = new List<Division>();
+        public string cargo;
 
-        public Empresa(string nombre, string rut, List<Division> divisions)
+
+        public Persona(string nombre, string apellido, string rut, string cargo)
         {
             this.nombre = nombre;
+            this.apellido = apellido;
             this.rut = rut;
-            this.divisions = divisions;
+            this.cargo = cargo;
         }
     }
 }
