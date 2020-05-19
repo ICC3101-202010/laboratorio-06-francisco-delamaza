@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laboratorio_06
 {
+    [Serializable]
     class Persona
     {
         public string nombre;

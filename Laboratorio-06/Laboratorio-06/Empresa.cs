@@ -11,7 +11,7 @@ namespace Laboratorio_06
     {
         public string nombre;
         public string rut;
-        List<Division> divisions = new List<Division>();
+        public List<Division> divisions = new List<Division>();
 
         public Empresa(string nombre, string rut, List<Division> divisions)
         {

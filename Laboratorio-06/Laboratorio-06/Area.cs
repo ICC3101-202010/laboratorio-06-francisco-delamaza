@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Laboratorio_06
 {
+    [Serializable]
     class Area: Division
     {
         public Persona encargado;
-        List<Departamento> departamentos = new List<Departamento>();
+        public List<Departamento> departamentos = new List<Departamento>();
 
         public Area(string nombre,Persona encargado, List<Departamento> departamentos)
         {
